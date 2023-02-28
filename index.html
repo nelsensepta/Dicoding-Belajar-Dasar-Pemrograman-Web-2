@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Profile</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <nav class="nav__container container">
+        <div class="logo__wrapper">
+          <a href="#header" class="logo-title">Dicoding Profile</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__lists">
+            <li class="nav__lists-item"><a href="#home">Home</a></li>
+            <li class="nav__lists-item"><a href="#services">About</a></li>
+            <li class="nav__lists-item"><a href="#product">Artciles</a></li>
+            <li class="nav__lists-item"><a href="#pricing">Contact</a></li>
+          </ul>
+          <ion-icon name="close" class="nav__close" id="nav-close"></ion-icon>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <ion-icon name="menu" class="menu-icon"></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+      <!-- Profile -->
+      <aside class="aside">
+        <div class="profile container">
+          <div class="wrapper__profile">
+            <img class="img__profile" src="assets/img/me.jpg" alt="profile" />
+            <div class="wrapper__title_profile">
+              <h1 class="title__profile">Nelsen Septa Henidar</h1>
+              <span class="desc__profile">Front End Developer</span>
+            </div>
+          </div>
+          <article class="artikel">
+            Halo,Saya mahasiswa Teknik Informatika yang tertarik pada bidang Web
+            Developer khusus nya dibagian Front End, Teknologi yang saya gunakan
+            dalam development web
+            <div class="wrapper_skills">
+              <div class="skills">
+                <span class="skill"> HTML </span>
+                <span class="skill"> CSS </span>
+                <span class="skill"> Javascript </span>
+                <span class="skill"> React Js </span>
+              </div>
+              <div class="skills">
+                <span class="skill"> Node Js </span>
+                <span class="skill"> Next Js </span>
+                <span class="skill"> Tailwind css </span>
+                <span class="skill"> Bootstraps 5</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </aside>
+
+      <!-- Service -->
+      <div class="hero__container container" id="home">
+        <div class="hero__wrapper-item">
+          <div class="hero__item">
+            <span
+              >Slicing Figma To HTML <br />
+              HTML, CSS, Javascript</span
+            >
+          </div>
+          <div class="hero__item">
+            <span>
+              Integrasi API Menggunakan <br />
+              React Js / Next Js</span
+            >
+          </div>
+          <div class="hero__item">
+            <span
+              >Pembuatan Sistem Informasi <br />
+              Menggunakan Laravel 9</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Slicing HTML -->
+      <section class="web section" id="web">
+        <h2 class="section__title">Slicing Figma To HTML</h2>
+        <div class="web__container container">
+          <div class="web__profile">
+            <div class="web__profile-img">
+              <img
+                src="assets/img/project/slicing.png"
+                class="img-view"
+                alt="Figma to html"
+              />
+            </div>
+          </div>
+          <div class="web__item">
+            <h1 class="web__item-title">Slicing Figma Ke Web</h1>
+            <p class="web__item-desc">
+              Project ini dibuat menggunakan framework next js Terdapat fitur
+              darkmmode untuk mode gelap untuk style menggunakan tailwindcss
+            </p>
+            <a
+              href="https://github.com/nelsensepta/next-js-landing-page"
+              target="_blank"
+              class="web__item-btn"
+              >View Detail</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Intergasi API With React JS -->
+      <section class="integrasi section" id="web">
+        <h2 class="section__title">Integrasi API React Js</h2>
+        <div class="integrasi__container container">
+          <div class="integrasi__profile">
+            <div class="integrasi__profile-img">
+              <img
+                src="assets/img/project/integrasi_API.png"
+                class="img-view"
+                alt="Figma to html"
+              />
+            </div>
+          </div>
+          <div class="integrasi__item">
+            <h1 class="integrasi__item-title">
+              Integrasi Dari Database Hashura
+            </h1>
+            <p class="integrasi__item-desc">
+              Project ini dibuat menggunakan React js Intergasi dari database
+              hashura ke react js menggunakan Graphql style menggunakan material
+              ui login menggunakan auth0
+            </p>
+            <a
+              href="https://github.com/nelsensepta/riset-qam-ekspedisi"
+              target="_blank"
+              class="integrasi__item-btn"
+              >View Detail</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Sistem Informasi -->
+      <section class="si section" id="web">
+        <h2 class="section__title">Sistem Informasi Laravel</h2>
+        <div class="si__container container">
+          <div class="si__profile">
+            <div class="si__profile-img">
+              <img
+                src="assets/img/project/si_laravel.png"
+                class="img-view"
+                alt="Figma to html"
+              />
+            </div>
+          </div>
+          <div class="si__item">
+            <h1 class="si__item-title">Dashboard Blog menggunakan laravel 9</h1>
+            <p class="si__item-desc">
+              Project ini dibuat menggunakan laravel 9 ada fitur crud untuk blog
+              dan cruf rest api
+            </p>
+            <a
+              href="https://github.com/nelsensepta/task-5-fullstack"
+              target="_blank"
+              class="si__item-btn"
+              >View Detail</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data-title">
+            <h3 class="footer__title">Septa Studio</h3>
+            <div>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="footer__social"
+              >
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">About</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Features</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">New & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Company</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Team</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Plan y Pricing</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Become a member</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Support</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Support Center</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &#169; 2022 Septa Studio. All rigths reserved.
+          </p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- My Js  -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
